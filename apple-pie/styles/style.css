@@ -68,6 +68,18 @@ ul li::before {
   content: "-";
 }
 
+ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+ol li:before {
+  display: inline-block;
+  content: counter(item) ") ";
+  counter-increment: item;
+  width: 40px;
+  margin-left: -40px;
+}
+
 #directions {
   font-size: 36px;
   margin: 70px 170px;
