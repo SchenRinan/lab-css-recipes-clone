@@ -1,11 +1,12 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  font-weight:lighter;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
 
 
@@ -43,6 +44,7 @@ img {
   margin: 70px 170px;
   padding-bottom: 70px;
   border-bottom: 4px solid lightgray;
+  line-height:1.4em;
 }
 
 #ingredients > ul {
@@ -70,6 +72,7 @@ ol li:before {
   font-size: 36px;
   margin: 70px 170px;
   padding-bottom: 70px;
+  line-height: 1.6em;
 }
 
 #directions > ol {
